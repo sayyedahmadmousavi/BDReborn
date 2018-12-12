@@ -1,0 +1,17 @@
+/tg/telegram-cli-1124: /lib/x86_64-linux-gnu/libtinfo.so.5: no version information available (required by ./tg/telegram-cli-1124)
+
+./tg/telegram-cli-1124: /usr/lib/x86_64-linux-gnu/liblua5.2.so.0: no version information available (required by ./tg/telegram-cli-1124)
+
+./tg/telegram-cli-1124: /usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by ./tg/telegram-cli-1124)
+
+./tg/telegram-cli-1124: /usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./tg/telegram-cli-1124)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+راه حل
+??????????????????????  	
+
+sudo apt-get install libstdc++6
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
